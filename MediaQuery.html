@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design with Media Queries</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .responsive-div {
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 10px;
+            transition: width 0.3s ease-in-out;
+        }
+
+        /* Media Query for Small Screens */
+        @media screen and (max-width: 600px) {
+            .responsive-div {
+                width: 80%;
+            }
+        }
+
+        /* Media Query for Extra Small Screens */
+        @media screen and (max-width: 400px) {
+            .responsive-div {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="responsive-div">
+    <p>This is a responsive div. Resize the window to see the changes.</p>
+</div>
+
+</body>
+</html>
