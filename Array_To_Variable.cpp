@@ -8,7 +8,7 @@ int main() {
     int n = sizeof(arr)/sizeof(arr[0]);
     for(int i = 0; i < n ; i++) {
         
-        b=b*10+arr[i]%10;   //math formula
+        b=b*10+arr[i]%10;   
 
     }
 
