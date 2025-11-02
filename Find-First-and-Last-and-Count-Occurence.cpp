@@ -6,7 +6,7 @@ int first(int arr[], int n, int key)
 	int e=n-1;
 	int mid = (s+e)/2;
 	int res = -1;
-	
+	   
 	while(s<=e)
 	{
 		if(arr[mid] == key)
