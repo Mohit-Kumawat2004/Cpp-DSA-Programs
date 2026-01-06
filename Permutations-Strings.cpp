@@ -1,6 +1,6 @@
 
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
 // Print all the permutations
 void getResult(string input, int l, int r)
