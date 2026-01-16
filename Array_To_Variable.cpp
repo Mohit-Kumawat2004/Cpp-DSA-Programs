@@ -11,7 +11,6 @@ int main() {
         b=b*10+arr[i]%10;   
 
     }
-
       cout <<"value of b is " << b << endl;
     return 0;
 }
@@ -23,6 +22,7 @@ int main() {
 Output : 
 
 value of b is 12345
+
 
 === Code Execution Successful ===
 
