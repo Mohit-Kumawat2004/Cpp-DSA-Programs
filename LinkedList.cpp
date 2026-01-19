@@ -29,7 +29,7 @@ void detectcycle(Node* &head, int d)
 	}
 	
 	cout<<"Cycle Found"<<endl;
-}
+} 
 
 
 void insertathead(Node* &head, int d)
